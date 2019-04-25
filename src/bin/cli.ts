@@ -3,16 +3,22 @@
 import yargs from 'yargs';
 import getNodeVersions from '../index';
 
+yargs.usage('Fetches information about the latest Node versions.');
 
 yargs.option('output', {
-  describe: '',
+  describe: 'Output configuration.',
   choices: ['json']
 });
 
 yargs.alias('o', 'output');
 
+yargs.example('$0', 'Show most retent \'latest\' and \'LTS\' release versions.');
+yargs.example('$0 -o json', 'Print information about the most retent \'latest\' and \'LTS\' release versions as a JSON object.');
+
 yargs.showHelpOnFail(true, 'See --help for usage instructions.');
 yargs.wrap(yargs.terminalWidth());
+yargs.alias('v', 'version');
+yargs.alias('h', 'help');
 yargs.version();
 yargs.strict();
 yargs.help();
