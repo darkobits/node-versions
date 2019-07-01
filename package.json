@@ -27,7 +27,7 @@
   "bin": {
     "node-versions": "dist/bin/cli.js"
   },
-  "main": "dist/index.js",
+  "main": "dist/node-versions.js",
   "scripts": {
     "build": "nps build",
     "test": "nps test",
