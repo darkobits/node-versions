@@ -1,3 +1,0 @@
-{
-  "extends": "@darkobits/ts-unified/dist/config/tslint.json"
-}

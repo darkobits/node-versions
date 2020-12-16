@@ -68,3 +68,8 @@ export interface NodeReleaseDescriptor {
   zlib: VersionDescriptor;
   openssl: VersionDescriptor;
 }
+
+
+export interface NodeVersionsArguments {
+  output?: 'json';
+}

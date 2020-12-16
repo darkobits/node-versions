@@ -7,7 +7,15 @@ import {NodeApiReleaseDescriptor, VersionDescriptor} from 'etc/types';
  * Array sorting predicate that sorts Node release descriptors by version.
  */
 export function releaseComparator(a: string, b: string) {
-  return a === b ? 0 : (semver.gt(a, b) ? 1 : -1);
+  if (a === b) {
+    return 0;
+  }
+
+  if (semver.gt(a, b)) {
+    return 1;
+  }
+
+  return -1;
 }
 
 
@@ -27,8 +35,8 @@ function parseVersion(versionStr: string): VersionDescriptor {
 
 
 /**
- * Provided a NodeApiReleaseDescriptor, returns an object with fields of interest
- * and all version strings parsed using semver.parse.
+ * Provided a NodeApiReleaseDescriptor, returns an object with fields of
+ * interest and all version strings parsed using semver.parse.
  */
 export function parseRelease(release: NodeApiReleaseDescriptor) {
   const {date, version, npm, v8, uv, zlib, openssl} = release;

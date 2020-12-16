@@ -1,17 +1,16 @@
 #!/usr/bin/env node
 
-import yargs, {Arguments} from 'yargs';
+import { EOL } from 'os';
+
+import cli from '@darkobits/saffron';
 import getNodeVersions from '../node-versions';
 
-
-export interface NodeVersionsArguments extends Arguments {
-  output: 'json' | undefined;
-}
+import { NodeVersionsArguments } from 'etc/types';
 
 
-yargs.command({
+cli.command<NodeVersionsArguments>({
   command: '*',
-  builder: command => {
+  builder: ({ command }) => {
     command.usage('Fetches information about the latest Node versions.');
 
     command.option('output', {
@@ -26,28 +25,18 @@ yargs.command({
 
     return command;
   },
-  handler: async (args: NodeVersionsArguments) => {
+  handler: async ({ argv }) => {
     const releases = await getNodeVersions();
 
-    if (args.output === 'json') {
-      process.stdout.write(`${JSON.stringify(releases, undefined, 2)}\n`);
+    if (argv.output === 'json') {
+      process.stdout.write(`${JSON.stringify(releases, undefined, 2)}${EOL}`);
       return;
     }
 
-    console.log(`Latest:\t${releases.latest.version.full}`);
-    console.log(`LTS:\t${releases.lts.version.full}`);
+    process.stdout.write(`Latest:\t${releases.latest.version.full}${EOL}`);
+    process.stdout.write(`LTS:\t${releases.lts.version.full}${EOL}`);
   }
 });
 
 
-yargs.showHelpOnFail(true, 'See --help for usage instructions.');
-yargs.wrap(yargs.terminalWidth());
-yargs.alias('v', 'version');
-yargs.alias('h', 'help');
-yargs.version();
-yargs.strict();
-yargs.help();
-
-
-// Parse command-line arguments, bail on --help, --version, etc.
-export default yargs.argv;
+cli.init();
