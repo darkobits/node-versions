@@ -101,5 +101,5 @@ LTS:    10.15.3
 You may also use `-o json` or `--output json` to have `node-versions` output JSON.
 
 <a href="#top">
-  <img src="https://user-images.githubusercontent.com/441546/102315151-835bb800-3f28-11eb-8cf4-8bd74b94ddc3.png" style="max-width: 100%;">
+  <img src="https://user-images.githubusercontent.com/441546/102322726-5e6d4200-3f34-11eb-89f2-c31624ab7488.png" style="max-width: 100%;">
 </a>
