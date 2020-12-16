@@ -11,8 +11,6 @@ import { NodeVersionsArguments } from 'etc/types';
 cli.command<NodeVersionsArguments>({
   command: '*',
   builder: ({ command }) => {
-    command.usage('Fetches information about the latest Node versions.');
-
     command.option('output', {
       describe: 'Output configuration.',
       choices: ['json']
@@ -20,8 +18,8 @@ cli.command<NodeVersionsArguments>({
 
     command.alias('o', 'output');
 
-    command.example('$0', 'Show most retent \'latest\' and \'LTS\' release versions.');
-    command.example('$0 -o json', 'Print information about the most retent \'latest\' and \'LTS\' release versions as a JSON object.');
+    command.example('$0', 'Show most recent \'latest\' and \'LTS\' release versions.');
+    command.example('$0 -o json', 'Print information about the most recent \'latest\' and \'LTS\' release versions as a JSON object.');
 
     return command;
   },
