@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/darkobits/node-versions/compare/v1.0.3...v1.0.4) (2020-12-16)
+
+
+### 🐞 Bug Fixes
+
+* Fix typos. ([2bf0377](https://github.com/darkobits/node-versions/commit/2bf0377dce38ac840a93fa89d3c91f538d125cb4))
+
+
+### 🏗 Chores
+
+* Update dependencies. ([b418d3b](https://github.com/darkobits/node-versions/commit/b418d3b50254f0714fee1da631bd75b49b007e6f))
+
+
+### 📖 Documentation
+
+* Update README. ([114f4cc](https://github.com/darkobits/node-versions/commit/114f4cc3659bde01aed516965f683a3c6eb59ac9))
+
 ### [1.0.3](https://github.com/darkobits/node-versions/compare/v1.0.2...v1.0.3) (2020-12-16)
 
 
