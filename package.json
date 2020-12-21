@@ -37,7 +37,7 @@
     "semver": "^7.3.4"
   },
   "devDependencies": {
-    "@darkobits/ts": "^0.2.0",
+    "@darkobits/ts": "^0.2.2",
     "@types/moxios": "^0.4.8",
     "@types/semver": "^7.3.4",
     "moxios": "^0.4.0"
