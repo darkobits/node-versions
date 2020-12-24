@@ -32,8 +32,8 @@
     "prepare": "nps prepare"
   },
   "dependencies": {
-    "@darkobits/saffron": "^0.1.15",
-    "axios": "^0.21.0",
+    "@darkobits/saffron": "^0.1.16",
+    "axios": "^0.21.1",
     "semver": "^7.3.4"
   },
   "devDependencies": {
