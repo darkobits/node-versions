@@ -3,15 +3,16 @@
 </a>
 <p align="center">
   <a href="https://www.npmjs.com/package/@darkobits/node-versions"><img src="https://img.shields.io/npm/v/@darkobits/node-versions.svg?style=flat-square"></a>
-  <a href="https://travis-ci.com/darkobits/node-versions"><img src="https://img.shields.io/travis/com/darkobits/node-versions/master?style=flat-square"></a>
-  <a href="https://www.codacy.com/app/darkobits/node-versions"><img src="https://img.shields.io/codacy/coverage/18f563b4662a4ffbb5e452676cb0163d.svg?style=flat-square"></a>
+  <a href="https://github.com/darkobits/node-versions/actions?query=workflow%3ACI"><img src="https://img.shields.io/github/workflow/status/darkobits/node-versions/CI/master?style=flat-square"></a>
+  <a href="https://app.codecov.io/gh/darkobits/node-versions/branch/master"><img src="https://img.shields.io/codecov/c/github/darkobits/node-versions/master?style=flat-square"></a>
   <a href="https://david-dm.org/darkobits/node-versions"><img src="https://img.shields.io/david/darkobits/node-versions.svg?style=flat-square"></a>
   <a href="https://github.com/conventional-changelog/standard-version"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-027dc6.svg?style=flat-square"></a>
 </p>
 
 ## Install
 
-This package is available as a CLI and as a Node API. If only using the Node API, you should install it locally in your project:
+This package is available as a CLI and as a Node API. If only using the Node
+API, you should install it locally in your project:
 
 ```
 npm i @darkobits/node-versions
@@ -27,7 +28,9 @@ npm i -g @darkobits/node-versions
 
 ### Node API
 
-This package exports an [async function](https://ponyfoo.com/articles/understanding-javascript-async-await) that returns a JSON object with 2 keys, `latest` and `lts`, each with the following sub-keys:
+This package exports an [async function](https://ponyfoo.com/articles/understanding-javascript-async-await)
+that returns a JSON object with 2 keys, `latest` and `lts`, each with the
+following sub-keys:
 
 ```ts
 interface VersionDescriptor {
@@ -98,8 +101,10 @@ Latest: 11.14.0
 LTS:    10.15.3
 ```
 
-You may also use `-o json` or `--output json` to have `node-versions` output JSON.
+You may also use `-o json` or `--output json` to have `node-versions` output
+JSON.
 
+<br />
 <a href="#top">
   <img src="https://user-images.githubusercontent.com/441546/102322726-5e6d4200-3f34-11eb-89f2-c31624ab7488.png" style="max-width: 100%;">
 </a>
