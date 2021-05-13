@@ -5,8 +5,8 @@
   <a href="https://www.npmjs.com/package/@darkobits/node-versions"><img src="https://img.shields.io/npm/v/@darkobits/node-versions.svg?style=flat-square"></a>
   <a href="https://github.com/darkobits/node-versions/actions?query=workflow%3ACI"><img src="https://img.shields.io/github/workflow/status/darkobits/node-versions/CI/master?style=flat-square"></a>
   <a href="https://app.codecov.io/gh/darkobits/node-versions/branch/master"><img src="https://img.shields.io/codecov/c/github/darkobits/node-versions/master?style=flat-square"></a>
-  <a href="https://david-dm.org/darkobits/node-versions"><img src="https://img.shields.io/david/darkobits/node-versions.svg?style=flat-square"></a>
-  <a href="https://github.com/conventional-changelog/standard-version"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-027dc6.svg?style=flat-square"></a>
+  <a href="https://depfu.com/github/darkobits/node-versions"><img src="https://img.shields.io/depfu/darkobits/node-versions?style=flat-square"></a>
+  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/static/v1?label=commits&message=conventional&style=flat-square&color=398AFB"></a>
 </p>
 
 ## Install
