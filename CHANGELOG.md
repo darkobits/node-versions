@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/darkobits/node-versions/compare/v1.0.5...v1.0.6) (2021-05-13)
+
+
+### 📖 Documentation
+
+* Update README. ([126454d](https://github.com/darkobits/node-versions/commit/126454d4a0141b12119825ed50872e142fe78c55))
+
+
+### 🏗 Chores
+
+* **deps:** bump handlebars from 4.7.6 to 4.7.7 ([#122](https://github.com/darkobits/node-versions/issues/122)) ([7a8f322](https://github.com/darkobits/node-versions/commit/7a8f322abf8c8c639cacd9a147f7cc8936877ece))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([#124](https://github.com/darkobits/node-versions/issues/124)) ([d14ce4f](https://github.com/darkobits/node-versions/commit/d14ce4ffef9640434e6dce9ebafb8b6eb39bc496))
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([#123](https://github.com/darkobits/node-versions/issues/123)) ([02ee06c](https://github.com/darkobits/node-versions/commit/02ee06c52157f7c8d0d6cfc2fc65da1984581e72))
+* **deps:** Update dependencies. ([8f9e255](https://github.com/darkobits/node-versions/commit/8f9e255ecc7de4091842d20bcc7844ea2deb3ee8))
+* Update dependencies. ([c7cdf78](https://github.com/darkobits/node-versions/commit/c7cdf7861ddcfdd2d305a371d6aa695ea778617c))
+
 ### [1.0.5](https://github.com/darkobits/node-versions/compare/v1.0.4...v1.0.5) (2020-12-21)
 
 
