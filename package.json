@@ -39,7 +39,7 @@
   "devDependencies": {
     "@darkobits/ts": "^0.3.3",
     "@types/moxios": "^0.4.11",
-    "@types/semver": "^7.3.5",
+    "@types/semver": "^7.3.6",
     "moxios": "^0.4.0"
   }
 }
