@@ -11,8 +11,8 @@
 
 ## Install
 
-This package is available as a CLI and as a Node API. If only using the Node
-API, you should install it locally in your project:
+This package is available as a CLI and as a Node API. If only using the Node API, you should install it
+locally in your project:
 
 ```
 npm i @darkobits/node-versions

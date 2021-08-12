@@ -29,17 +29,17 @@
   },
   "main": "dist/node-versions.js",
   "scripts": {
-    "prepare": "nps prepare"
+    "prepare": "nr prepare"
   },
   "dependencies": {
-    "@darkobits/saffron": "^0.1.17",
+    "@darkobits/saffron": "^0.4.2",
     "axios": "^0.21.1",
     "semver": "^7.3.4"
   },
   "devDependencies": {
-    "@darkobits/ts": "^0.3.3",
-    "@types/moxios": "^0.4.11",
-    "@types/semver": "^7.3.5",
+    "@darkobits/ts": "^0.7.11",
+    "@types/moxios": "^0.4.12",
+    "@types/semver": "^7.3.8",
     "moxios": "^0.4.0"
   }
 }
