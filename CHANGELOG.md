@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/darkobits/node-versions/compare/v1.0.6...v1.0.7) (2021-08-12)
+
+
+### 🏗 Chores
+
+* **deps:** Update dependencies. ([b5288e4](https://github.com/darkobits/node-versions/commit/b5288e4b5734483cecc39b9a0126fb91deb0f5c0))
+
 ### [1.0.6](https://github.com/darkobits/node-versions/compare/v1.0.5...v1.0.6) (2021-05-13)
 
 

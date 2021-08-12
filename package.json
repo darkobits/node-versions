@@ -1,6 +1,6 @@
 {
   "name": "@darkobits/node-versions",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Get the 'latest' and 'LTS' versions of Node JS.",
   "license": "WTFPL",
   "author": "darkobits",
