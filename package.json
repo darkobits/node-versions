@@ -32,9 +32,9 @@
     "prepare": "nr prepare"
   },
   "dependencies": {
-    "@darkobits/saffron": "^0.4.2",
+    "@darkobits/saffron": "^0.4.3",
     "axios": "^0.21.1",
-    "semver": "^7.3.4"
+    "semver": "^7.3.5"
   },
   "devDependencies": {
     "@darkobits/ts": "^0.7.11",
