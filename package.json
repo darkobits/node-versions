@@ -34,7 +34,7 @@
   "dependencies": {
     "@darkobits/saffron": "^0.4.2",
     "axios": "^0.21.1",
-    "semver": "^7.3.4"
+    "semver": "^7.5.2"
   },
   "devDependencies": {
     "@darkobits/ts": "^0.7.11",
